@@ -1,6 +1,6 @@
 Aqui pondremos la info de los exceles que nos dio el cliente
 
-Prueba 4 DASHBOARD
+Prueba 4 DASHBOARD Prioridad Extrema
 
 PRODUCCIÓN:
 
@@ -25,13 +25,16 @@ El cliente quiere:
 Al seleccionar un mueble en particular, se debe de mostrar la etapa en la que se encuentra junto con su porcentaje y la fecha de esa etapa.  
 El proyecto general debe de mostrar el porcentaje de avance completado y faltante. Un proyecto grande con "miniproyectos", los cuales serían cada mueble a completar.
 
-Debe existir un apartado de incidencias donde habrá un contador automático de incidencias, y por cada una se podrá registrar fecha y descripción de lo que se desea reportar. Cada apartado de mueble por proyecto podrá tener un registro de incidencias. Cada incidencia que sea registrada se notificará a compras, se revisará y así se podrá realizar los cambios correspondientes en la ficha de compras.
+Debe existir un apartado de incidencias donde habrá un contador automático de incidencias, y por cada una se podrá registrar fecha y descripción de lo que se desea reportar. Cada apartado de mueble por proyecto podrá tener un registro de incidencias.
+
+Cada incidencia que sea registrada se notificará a compras, se revisará y así se podrá realizar los cambios correspondientes en la ficha de compras.
+Incidencias deberia ser un aviso nada mas y deberia ser un nuevo boton principal y debe quedarse en el proyecto para que la gente pueda verlo
 
 COMPRAS:
 
-Lista de inventario \- 2026(excel)
+Lista de inventario \- 2026(excel) Prioritario extrema
 
-La lista de inventario debe de organizarse con el listado de material, su tipo, su precio por unidad, debe de tener un stock mínimo, la unidad de medida con la que se trabaja, un apartado de entrada que diga cuándo es que ocurre la entrada del material (fecha), un valor de inventario basado en la entrada (cantidad actual \* precio por unidad), la salida de materiales deberá estar vinculada a las fichas de pago, las cuales tras hacerse y registrarse descontarán automáticamente los materiales de la cantidad actual, la cantidad actual del material y una sección de observaciones.
+La lista de inventario debe de organizarse con el listado de material, su tipo, su precio por unidad, debe de tener un stock mínimo, la unidad de medida con la que se trabaja, un apartado de entrada que diga cuándo es que ocurre la entrada del material (fecha), un valor de inventario basado en la entrada (cantidad actual \* precio por unidad), la salida de materiales deberá estar vinculada a una fecha, las cuales tras hacerse y registrarse descontarán automáticamente los materiales de la cantidad actual, la cantidad actual del material y una sección de observaciones.
 
 Para cada material debe de existir una función de notificación cuando el material esté “menor/igual a” o “igual a” una cantidad determinada con respecto al stock mínimo.
 
@@ -41,21 +44,25 @@ Para la lista de almacén, debe de poder hacerse un “corte” de registro de m
 
 Este Excel se enfoca en el apartado de PROYECTOS, su información de precios y materiales va más hacia órdenes de compra que a finanzas y contabilidad.
 
-Pedidos materiales-obras (excel)
+
+
+Pedidos materiales-obras (excel) 
 
 Esta sección de pedidos incluye el material a pedir, y por cada material su precio unitario, cada mueble donde se requiere y en cuánta cantidad, un **REND\*\***, la cantidad necesaria total con respecto al **REND\*\***, el volumen total del pedido y el importe total del pedido.
 
 Cuando se hace una incidencia será para hacer requisición de materiales a compras o para notificar de cambios necesarios para poder llevar a cabo el proyecto detectados en alguna de las etapas, con respecto a los planos.
 
+Preguntar por las columnas c y d si lo quieren por separado o en conjunto
+
 BASE CONSUMIBLES (excel)
 
 En este documento no hay información que no esté YA existente en el documento de Lista de Inventario \- 2026, A EXCEPCIÓN de IDs de materiales (números: 1,2,3,4,5)
 
-GASTOS Y COMPRAS (excel)\*\*
+GASTOS Y COMPRAS (excel)\*\* 
 
 *– POR REVISAR –*
 
-FECHA-COTIZACIONES-v2 (excel)
+FECHA-COTIZACIONES-v2 (excel) Administracion
 
  Debe de tener un ID por proyecto, el proyecto debe de incluir cliente, proyecto, fecha de recepción y envío, dias de atraso (si hubiera, se expresa con números fijos), las etapas de la cotización (llenadas por checkbox):
 
@@ -85,7 +92,7 @@ Debe de tener en el apartado de administración, el apartado de saldos donde est
 
 ***EXTRAS PARA ADMINISTRACIÓN:***
 
-***Control de gastos fijos (excel)***
+***Control de gastos fijos (excel)*** No prioritario
 
 * Apartado de control de gastos fijos, que ponga el mes, al momento de registrar una nueva entrada en el control de gastos de fijos, debe de aparecer un timestamp de cuándo se realiza el contro. Que tenga un apartad, el concepto del gasto fijo y la cantidad. Que tenga un desplegable entre los estados “ENTREGADO”, “PENDIENTE” o un tercer estado que indique que el concepto durante estos plazos no es necesario pagarlo (“No se paga”), cambiando de color entre ellos.
 
