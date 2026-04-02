@@ -4,8 +4,20 @@
 
     **Funcionalidad Princpal**
        Pestaña de inventario (almacén) PRIORIDAD EXTREMA
+  
   Debe incluir en la pestaña de almacen estos datos:
-   Función de actualización automática de materiales en la lista de inventario ligado a fichas de pago y pedidos. PRIORIDAD ALTA.
+
+1. ID de material (número)
+2. Nombre del material
+3. Tipo de material (Tornillería, varios, etc.)
+4. Precio por unidad
+5. Stock mínimo
+6. Unidad de medida con la que se trabaja dicho material
+7. Un apartado de entrada de material, el cual debe incluir cantidad y fecha de entrada.
+8. Valor del material en el inventario basado en la cantidad actual de material (cantidad actual * precio por unidad).
+9. Salida de materiales, la cual incluirá la opción de una o varias salidas, cada una con su cantidad, fecha y proyecto.
+
+* Función de actualización automática de materiales en la lista de inventario ligado a fichas de pago y pedidos. PRIORIDAD ALTA.
 
 
     1. Creacion de proyectos: Permite la creacion de proyectos, tomando los siguientes datos del proyecto a crear:
@@ -26,13 +38,25 @@
         - Proveedor
     
     3. Ordenes de Compra: Permite la requisicion de materiales por medio de ordenes, las cuales incluyen la siguiente informacion:
-    Pestaña de cotizaciones con dashboard con los datos de las cotizaciones y sus etapas, así como avance general y datos extra. PRIORIDAD BAJA
-      Debe incluir:
         - Material (seleccion del catalogo).
         - Cantidad (la unidad es la que aparece en el catalogo del material seleccionado).
         - Costo aproximado (en pesos mexicanos).
     Estas ordenes de compra aumentan el stock de cierto material del cual se realizo la orden de compra.
-    
+        
+        Pestaña de cotizaciones con dashboard con los datos de las cotizaciones y sus etapas, así como avance general y datos extra. PRIORIDAD BAJA
+      Debe incluir las etapas:
+       * Pend. inicio
+       * En proceso
+       * Pend. por revisión
+       * Revisado
+       * Enviado
+      
+   Al final de las etapas:
+* Un visualizador de avance porcentual de la cotización entera (barra de carga)
+
+* Estatus de proyecto (aprobado o rechazado)
+
+* Medio por el que se comunicó la cotización
     **Funcionalidad Secundario**
 
     1. Comprobacion de materiales: funcion actuando en materiales que revisa en cada salida de materiales (por creacion de proyecto), que revisa que el stock de materiales no cruce de el minimo.
