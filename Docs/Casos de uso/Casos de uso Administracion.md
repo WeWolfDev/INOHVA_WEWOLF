@@ -199,3 +199,35 @@
   El sistema impide la eliminación y muestra mensaje: "No hay carpinteros disponibles para reasignar los proyectos. Antes cambie el estado de algún carpintero o finalice proyectos".
 - **4b. Administrador cancela la operación:**  
   No se realiza ningún cambio y se vuelve al catálogo.
+# Estimación de tiempo por caso de uso (estudiantes de semestres intermedios)
+
+> **Supuesto:** Todo el diseño está listo (diagramas, wireframes, modelo de datos, reglas de negocio). Solo se codifica.  
+> **Factor aplicado:** 2.5 - 3 veces sobre estimación profesional.
+
+| # | Caso de uso | Horas profesional (rango) | Factor | Horas estudiante (rango) |
+|---|-------------|---------------------------|--------|---------------------------|
+| 1 | Ver vista global de proyectos | 3 – 4 | 2.5 – 3 | 7.5 – 12 |
+| 2 | Ver avance de proyectos (histograma) | 3 – 4 | 2.5 – 3 | 7.5 – 12 |
+| 3 | Visualizar panel de indicadores (4 tarjetas) | 2 – 3 | 2.5 – 3 | 5 – 9 |
+| 4 | Agregar material | 2 – 3 | 2.5 – 3 | 5 – 9 |
+| 5 | Ver catálogo de carpinteros | 2 – 3 | 2.5 – 3 | 5 – 9 |
+| 6 | Agregar carpintero | 1 – 2 | 2.5 – 3 | 2.5 – 6 |
+| 7 | Eliminar carpintero con reasignación de proyectos | 4 – 6 | 2.5 – 3 | 10 – 18 |
+
+## Totales
+
+| Concepto | Horas |
+|----------|-------|
+| **Suma mínima (estudiante)** | 7.5+7.5+5+5+5+2.5+10 = **42.5** |
+| **Suma máxima (estudiante)** | 12+12+9+9+9+6+18 = **75** |
+| **Ajuste por integración y pruebas entre módulos** | +5 a +10 |
+| **Total final estimado (estudiante)** | **48 – 85 horas** |
+
+## Equivalencia en días / semanas
+
+- **Jornada completa (8 h/día):** 6 – 10.5 días hábiles  
+- **Tiempo parcial (4-5 h/día, común en estudiantes):** 2 – 3.5 semanas  
+
+## Nota
+
+Esta estimación considera curva de aprendizaje, debugging, errores de integración y trabajo en equipo no optimizado. Si se usan herramientas low‑code o administradores automáticos, los tiempos pueden reducirse hasta un 40%.
